@@ -84,8 +84,8 @@ var snow = {
     },
 
     getSize: function () {
-        this.WIDTH = document.body.clientWidth || window.innerWidth;
-        this.HEIGHT = document.body.clientHeight || window.innerHeight;
+        this.WIDTH = document.body.clientWidth - 100 || window.innerWidth;
+        this.HEIGHT = document.body.clientHeight - 100 || window.innerHeight;
     }
 
 };
@@ -98,7 +98,7 @@ wind.addEventListener("click", function () {
         flocons = document.querySelectorAll("span.truc");
         for (let flocon of flocons) {
             flocon.innerHTML = "JF"
-            flocon.style.fontSize = 50 + "px";
+            flocon.style.fontSize = 80 + "px";
             flag = true;
         }
     } else {
