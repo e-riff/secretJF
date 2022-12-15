@@ -98,7 +98,7 @@ wind.addEventListener("click", function () {
         flocons = document.querySelectorAll("span.truc");
         for (let flocon of flocons) {
             flocon.innerHTML = "JF"
-            flocon.style.fontSize = 80 + "px";
+            flocon.style.fontSize = 60 + "px";
             flag = true;
         }
     } else {
